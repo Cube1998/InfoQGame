@@ -25,10 +25,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    BuildTowerIcon.cpp \
+    Bullet.cpp \
+    Enemy.cpp \
+    Game.cpp \
+    Tower.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    BuildTowerIcon.h \
+    Bullet.h \
+    Enemy.h \
+    Game.h \
+    Tower.h
 
 FORMS += \
         mainwindow.ui
+
+RESOURCES += \
+    tower.qrc
