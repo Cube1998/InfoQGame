@@ -1,2 +1,12 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/">
+        <file>Arrow.png</file>
+        <file>Arrow2.png</file>
+        <file>Enemy.png</file>
+        <file>Star.png</file>
+        <file>Tower1.png</file>
+        <file>Tower2.png</file>
+        <file>Tower3.png</file>
+        <file>Tower4.png</file>
+    </qresource>
+</RCC>
